@@ -24,7 +24,7 @@
 
 <body id="app">
   <!-- 响应式布局按钮 -->
-  <a class="side-navigation btn-hover btn-hover-bg tip left" data-tip="توسيع">
+  <a class="side-navigation btn-hover btn-hover-bg tip left" data-tip="展开">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
       <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <rect x="4" y="4" width="16" height="16" rx="2"></rect>
@@ -39,7 +39,7 @@
 
 
 <div class="home-bar">
-  <a href="/" class="tip" data-tip="الرئيسية">
+  <a href="/" class="tip" data-tip="首页">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
       <path
         d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22c18.2 6.8 31.3 24.4 31.3 45c0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7c54.4-11.4 98.3-55.4 109.7-109.7c17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9c129.4 7 233.4 112 240.9 241.5c.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9c76.8 6.3 138 68.2 144.9 145.2c.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3c-8.4-110.1-96.5-198.2-206.6-206.7z"
@@ -48,7 +48,7 @@
     <span></span>
   </a>
   <!-- 切换主题 -->
-  <a id="toggle-theme" class="tip left" data-tip="تغيير الثيم">
+  <a id="toggle-theme" class="tip left" data-tip="切换主题">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
       <path d="M256 118a22 22 0 0 1-22-22V48a22 22 0 0 1 44 0v48a22 22 0 0 1-22 22z" fill="currentColor"></path>
       <path d="M256 486a22 22 0 0 1-22-22v-48a22 22 0 0 1 44 0v48a22 22 0 0 1-22 22z" fill="currentColor"></path>
@@ -92,20 +92,20 @@
   <ul><li data-path="timeline">
         <a href="/archives">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"> <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 7v14"></path> <path d="M9 18l3 3l3-3"></path> <circle cx="12" cy="5" r="2"></circle> </g> </svg>
-          <div class="ellipsis">الجدول الزمني</div>
+          <div class="ellipsis">时间轴</div>
         </a>
       </li><li data-path="roadmap">
         <a href="/roadmap">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"> <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M10.5 20.4l-6.9-6.9c-.781-.781-.781-2.219 0-3l6.9-6.9c.781-.781 2.219-.781 3 0l6.9 6.9c.781.781.781 2.219 0 3l-6.9 6.9c-.781.781-2.219.781-3 0z"></path> <path d="M9 14v-2c0-.59.414-1 1-1h5"></path> <path d="M13 9l2 2l-2 2"></path> </g> </svg>
-          <div class="ellipsis">Roadmap</div>
+          <div class="ellipsis">路线</div>
         </a>
       </li><li data-path="resume">
         <a href="/resume">
           <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"> <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M14 3v4a1 1 0 0 0 1 1h4"></path> <path d="M5 8V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2h-5"></path> <circle cx="6" cy="14" r="3"></circle> <path d="M4.5 17L3 22l3-1.5L9 22l-1.5-5"></path> </g> </svg>
-          <div class="ellipsis">السيرة الذاتية</div>
+          <div class="ellipsis">简历</div>
         </a>
       </li></ul>
-  <p>الفئة</p>
+  <p>分类</p>
   <ul></ul>
 </section>
 
@@ -160,32 +160,32 @@
 </body>
 <script>
   window.i18n = {
-    "tip-collapse": "طي",
-    "tip-expand": "توسيع",
-    "text-select": "اختر",
-    "text-move": "حركة",
-    "text-esc": "إغلاق",
-    "tip-status-done": "مكتمل",
-    "tip-status-doing": "قيد التنفيذ",
-    "tip-status-todo": "قيد الانتظار",
-    "tip-status-other": "مكرر",
-    "tip-status-default": "افتراضي",
-    "tip-roadmap-today": "التوجيه إلى اليوم",
-    "text-search": "بحث...",
-    "text-today": "اليوم",
+    "tip-collapse": "折叠",
+    "tip-expand": "展开",
+    "text-select": "选择",
+    "text-move": "移动",
+    "text-esc": "关闭",
+    "tip-status-done": "完成",
+    "tip-status-doing": "进行中",
+    "tip-status-todo": "待办",
+    "tip-status-other": "废弃",
+    "tip-status-default": "默认",
+    "tip-roadmap-today": "定位今天",
+    "text-search": "搜索...",
+    "text-today": "今天",
     // month
-    "January": "يناير",
-    "February": "فبراير",
-    "March": "مارس",
-    "April": "إبريل",
-    "May": "مايو",
-    "June": "يونيو",
-    "July": "يوليو",
-    "August": "أغسطس",
-    "September": "سبتمبر",
-    "October": "أكتوبر",
-    "November": "نوفمبر",
-    "December": "ديسمبر",
+    "January": "一月",
+    "February": "二月",
+    "March": "三月",
+    "April": "四月",
+    "May": "五月",
+    "June": "六月",
+    "July": "七月",
+    "August": "八月",
+    "September": "九月",
+    "October": "十月",
+    "November": "十一月",
+    "December": "十二月",
   }
 </script>
 
